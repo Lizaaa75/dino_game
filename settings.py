@@ -11,7 +11,7 @@ level_count = 1
 window = pygame.display.set_mode((W, H))
 pygame.display.set_caption("Dino Platformer")
 
-clock = pygame.time.Clock
+clock = pygame.time.Clock()
 
 """ГРУПИ ОБ'ЯКТІВ"""
 planforms = pygame.sprite.Group() 
